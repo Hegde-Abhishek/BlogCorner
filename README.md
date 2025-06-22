@@ -1,2 +1,2 @@
 # BlogCorner
-A modern web application enabling users to create, read, update, and delete their blog posts. Built with React.js for a dynamic frontend, Node.js and Express.js for the backend, and PostgreSQL for data storage.
+This project is a modern complete web application designed for users to effortlessly manage blog posts. It offers intuitive create, read, update, and delete (CRUD) functionalities. The client-side is built with React.js, providing a dynamic and responsive user interface, while the robust backend is powered by Node.js and Express.js. All blog information is securely stored and managed in a PostgreSQL database.
