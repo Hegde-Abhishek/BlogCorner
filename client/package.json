@@ -1,0 +1,119 @@
+{
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "proxy": "http://localhost:8000/",
+    "dependencies": {
+        "@testing-library/jest-dom": "^6.6.3",
+        "@testing-library/react": "^16.3.0",
+        "@testing-library/user-event": "^14.6.1",
+        "bootstrap": "^5.3.6",
+        "flow-bin": "^0.272.1",
+        "prettier": "^3.5.3",
+        "prop-types": "^15.8.1",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0",
+        "react-router-dom": "^7.6.1",
+        "react-scripts": "5.0.1",
+        "sass": "^1.89.0",
+        "web-vitals": "^5.0.1"
+    },
+    "overrides": {
+        "nth-check": "latest",
+        "postcss": "latest"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ],
+        "rules": {
+            "react/jsx-filename-extension": [
+                1,
+                {
+                    "extensions": [
+                        ".js",
+                        ".jsx"
+                    ]
+                }
+            ],
+            "strict": [
+                "error",
+                "global"
+            ],
+            "prefer-destructuring": [
+                "error",
+                {
+                    "array": true,
+                    "object": true
+                },
+                {
+                    "enforceForRenamedProperties": true
+                }
+            ],
+            "new-cap": "error",
+            "no-invalid-this": "error",
+            "prefer-const": "error",
+            "no-new-func": "error",
+            "prettier/prettier": "error",
+            "no-unused-vars": "warn",
+            "no-console": "warn",
+            "func-names": "warn",
+            "no-process-exit": "warn",
+            "object-shorthand": "warn",
+            "class-methods-use-this": "error",
+            "no-param-reassign": "error",
+            "no-var": "error",
+            "prefer-arrow-callback": "warn",
+            "prefer-rest-params": "warn",
+            "arrow-parens": [
+                "error",
+                "always"
+            ],
+            "arrow-body-style": [
+                "error",
+                "as-needed"
+            ],
+            "no-eval": "error",
+            "no-implied-eval": "error",
+            "eqeqeq": "error",
+            "no-with": "error",
+            "no-plusplus": "error",
+            "react-hooks/rules-of-hooks": "error",
+            "react-hooks/exhaustive-deps": "warn",
+            "jsx-a11y/label-has-associated-control": [
+                2,
+                {
+                    "labelComponents": [
+                        "FormLabel"
+                    ],
+                    "labelAttributes": [
+                        "label"
+                    ],
+                    "controlComponents": [
+                        "input"
+                    ],
+                    "depth": 2
+                }
+            ]
+        }
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
